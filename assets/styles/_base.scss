@@ -1,0 +1,25 @@
+:root {
+    --color-primary: 30, 57, 200;
+    --color-primary-dark: 13, 24, 83;
+
+    --color-secondary: 255, 199, 0;
+    --color-secondary-dark: 201, 157, 0;
+
+    --color-text: 37, 37, 38;
+    --color-gray: 217, 217, 217;
+    
+    --color-bg: 241, 243, 249;
+    --color-bg-2: 242, 250, 255;
+
+    --shadow-1: 0 2px 12px rgba(0,0,0, .15);
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: rgba(var(--color-text), 1);
+    font-size: $font-size;
+}
