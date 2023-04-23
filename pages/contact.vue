@@ -4,6 +4,28 @@ const appConfig = useAppConfig()
 
 console.log('runtimeConfig:', runtimeConfig)
 console.log('appConfig:', appConfig)
+
+
+function hash() {
+  return window.location.hash.replace(/^#/, '')
+}
+
+onBeforeMount(() => {
+  console.log('1 onBeforeMount hash:', hash())
+})
+
+onMounted(() => {
+  console.log('2 onMounted hash:', hash())
+})
+
+onBeforeUpdate(() => {
+  console.log('3 onBeforeUpdate hash:', hash())
+})
+
+onUpdated(() => {
+  console.log('4 onUpdated hash:', hash())
+})
+
 </script>
 
 <template>
