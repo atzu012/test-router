@@ -9,7 +9,15 @@ export default defineNuxtConfig({
       }
     },
 
-    css: ["@/assets/styles/main.scss"],
+    css: [
+        "primevue/resources/themes/lara-light-blue/theme.css",
+        "primevue/resources/primevue.css",
+        "@/assets/styles/main.scss"
+    ],
+    build: {
+      transpile: ["primevue"]
+    },
+
     vite: {
         css: {
           preprocessorOptions: {

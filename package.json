@@ -13,7 +13,11 @@
     "nuxt": "^3.4.2"
   },
   "dependencies": {
+    "primeflex": "^3.3.0",
+    "primevue": "^3.27.0",
     "sass": "^1.62.0",
-    "sass-loader": "^13.2.2"
+    "sass-loader": "^13.2.2",
+    "vee-validate": "^4.8.6",
+    "yup": "^1.1.1"
   }
 }
